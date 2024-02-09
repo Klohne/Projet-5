@@ -2,6 +2,19 @@
 <html lang="fr">
 
 <head>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
+	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+	integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+	<script src="./assets/maugallery.min.js" defer></script>
+
+	<script src="./assets/scripts.js" defer></script>
+
+	<link rel="stylesheet" href="./assets/style.min.css">
+
+	<meta charset="UTF-8">	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Photographe mariages, concerts, entreprise, portraits. 68 avenue Alsace-Lorraine, 33200 Bordeaux - 05 56 67 78 89 - lundi au vendredi de 10 h à 19 h">
 	<meta property="og:site_name" content="Nina Carducci - Photographe" />
@@ -14,22 +27,24 @@
 	<meta name="twitter:site" content="@monCompteTwitter" />
 	<meta name="twitter:title" content="MonSiteWeb - Plein d'articles géniaux" />
 	<meta name="twitter:description" content="Photographe mariages, concerts, entreprise, portraits. 68 avenue Alsace-Lorraine, 33200 Bordeaux - 05 56 67 78 89 - lundi au vendredi de 10 h à 19 h" />
-	<meta name="twitter:image" content="https://projet5.sirv.com/Images/images/nina.webp" />
+	<meta name="twitter:image" content="./assets/images/resized/max 466/nina.webp" />
 	<meta name="twitter:url" content="https://klohne.github.io/Projet-5/" />
 
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-	 integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-	<link rel="stylesheet" href="./assets/style.min.css">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Spectral:ital,wght@0,400;0,800;1,400;1,800&display=swap" rel="stylesheet">
-	<meta charset="UTF-8">
-	<script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
-		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
-	<script src="./assets/maugallery.min.js" defer></script>
-	<script src="./assets/scripts.js" defer></script>
+	<script type="application/ld+json">
+		{
+		  "@context": "https://schema.org/",
+		  "@type": "Photograph",
+		  "name": "Photograph",
+		  "author": {
+			"@type": "Person",
+			"name": "Nina Carducci"
+		  },
+		  "description": "Photographe mariages, concerts, portraits",
+		}
+		</script>
+
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Spectral:ital,wght@0,400;0,800;1,400;1,800&display=swap" rel="stylesheet" rel="preconnect">
 	<title>Nina Carducci - Photographe</title>
 </head>
 
@@ -60,32 +75,21 @@
 			</div>
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-					<img src="https://projet5.sirv.com/Images/images/ryoji-iwata-wUZjnOv7t0g-unsplash.webp"
-					srcset="https://projet5.sirv.com/Images/images/ryoji-iwata-wUZjnOv7t0g-unsplash.webp 4000w,
-					https://projet5.sirv.com/Images/images/2000/ryoji-iwata-wUZjnOv7t0g-unsplash.webp 2000w,
-					https://projet5.sirv.com/Images/images/1200/ryoji-iwata-wUZjnOv7t0g-unsplash.webp 1200w,
-					https://projet5.sirv.com/Images/images/700/ryoji-iwata-wUZjnOv7t0g-unsplash.webp 700w"
-						class="d-block w-100"
-						alt="Homme sur un passage piéton">
+					<img srcset="./assets/images/resized/slider400/ryoji-iwata-wUZjnOv7t0g-unsplash.webp 500w, ./assets/images/resized/700/ryoji-iwata-wUZjnOv7t0g-unsplash.webp 700w, ./assets/images/resized/1200/ryoji-iwata-wUZjnOv7t0g-unsplash.webp 1200w, ./assets/images/resized/2000/ryoji-iwata-wUZjnOv7t0g-unsplash.webp 1920w"
+						src="./assets/images/resized/2000/ryoji-iwata-wUZjnOv7t0g-unsplash.webp"
+						class="d-block w-100 h-auto" width="698" height="323" alt="la foule d'un concert" loading="eager">
 				</div>
 				<div class="carousel-item">
-					<img src="https://projet5.sirv.com/Images/images/edward-cisneros-3_h6-1NPDGw-unsplash.webp"
-					srcset="https://projet5.sirv.com/Images/images/edward-cisneros-3_h6-1NPDGw-unsplash.webp 4000w,
-					https://projet5.sirv.com/Images/images/2000/edward-cisneros-3_h6-1NPDGw-unsplash.webp 2000w,
-					https://projet5.sirv.com/Images/images/1200/edward-cisneros-3_h6-1NPDGw-unsplash.webp 1200w,
-					https://projet5.sirv.com/Images/images/700/edward-cisneros-3_h6-1NPDGw-unsplash.webp 700w"
-						class="d-block w-100"
-						alt="Deux mariés qui s'embrassent">
+					<img srcset="./assets/images/resized/slider400/nicholas-green-nPz8akkUmDI-unsplash.webp 500w, ./assets/images/resized/700/nicholas-green-nPz8akkUmDI-unsplash.webp 700w, ./assets/images/resized/1200/nicholas-green-nPz8akkUmDI-unsplash.webp 1200w, ./assets/images/resized/2000/nicholas-green-nPz8akkUmDI-unsplash.webp 1920w "
+						src="./assets/images/resized/2000/nicholas-green-nPz8akkUmDI-unsplash.webp"
+						class="d-block w-100 h-auto" width="700" height="323" alt="un homme traversant la rue" loading="lazy">
 				</div>
 				<div class="carousel-item">
-					<img src="https://projet5.sirv.com/Images/images/nicholas-green-nPz8akkUmDI-unsplash.webp"
-					srcset="https://projet5.sirv.com/Images/images/nicholas-green-nPz8akkUmDI-unsplash.webp 4000w,
-					https://projet5.sirv.com/Images/images/2000/nicholas-green-nPz8akkUmDI-unsplash.webp 2000w,
-					https://projet5.sirv.com/Images/images/1200/nicholas-green-nPz8akkUmDI-unsplash.webp 1200w,
-					https://projet5.sirv.com/Images/images/700/nicholas-green-nPz8akkUmDI-unsplash.webp 700w"
-						class="d-block w-100"
-						alt="Public d'un concert">
+					<img srcset="./assets/images/resized/slider400/edward-cisneros-3_h6-1NPDGw-unsplash.webp 500w, ./assets/images/resized/700/edward-cisneros-3_h6-1NPDGw-unsplash.webp 700w, ./assets/images/resized/1200/edward-cisneros-3_h6-1NPDGw-unsplash.webp 1200w, ./assets/images/resized/2000/edward-cisneros-3_h6-1NPDGw-unsplash.webp 1920w"
+						src="./assets/images/resized/2000/edward-cisneros-3_h6-1NPDGw-unsplash.webp"
+						class="d-block w-100 h-auto" width="466" height="323" alt="un marié embrassant la mariée" loading="lazy">
 				</div>
+			</div>
 			</div>
 			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
 				data-bs-slide="prev">
@@ -101,9 +105,7 @@
 	</div>
 	<div id="about">
 		<div class="picture left" itemscope itemtype="https://schema.org/Photograph">
-			<img itemprop="creator" alt="Nina Carducci" srcset="https://projet5.sirv.com/Images/images/nina.webp 4000w,
-			https://projet5.sirv.com/Images/images/1200/nina.webp 1200w,
-			https://projet5.sirv.com/Images/images/700/nina.webp 700w">
+			<img itemprop="creator" alt="Nina Carducci" src="./assets/images/resized/max 466/nina.webp" width="466" height="466">
 		</div>
 		<div id="about-me">
 			<h2 class="about-me__title">A propos de moi</h2>
@@ -122,50 +124,32 @@
 		<h3 class="title">Portfolio</h3>
 		<div class="container py-3">
 			<div class="gallery" style="display: none" itemscope itemtype="https://schema.org/Photograph">
-				<img data-gallery-tag="Concert" class="gallery-item" itemprop="image" src="https://projet5.sirv.com/Images/images/aaron-paul-wnX-fXzB6Cw-unsplash.webp"
-					srcset="https://projet5.sirv.com/Images/images/aaron-paul-wnX-fXzB6Cw-unsplash.webp 4000w,
-					https://projet5.sirv.com/Images/images/1200/aaron-paul-wnX-fXzB6Cw-unsplash.webp 1200w,
-					https://projet5.sirv.com/Images/images/700/aaron-paul-wnX-fXzB6Cw-unsplash.webp 700w" alt="Salle de concert"/>
+				<img data-gallery-tag="Concert" class="gallery-item" itemprop="image" src="./assets/images/resized/max 466/aaron-paul-wnX-fXzB6Cw-unsplash.webp"
+					width="466" height="466" alt="Salle de concert" loading="lazy"/>
 
-				<img data-gallery-tag="Entreprises" class="gallery-item" itemprop="image" src="https://projet5.sirv.com/Images/images/ali-morshedlou-WMD64tMfc4k-unsplash.webp"
-					srcset="https://projet5.sirv.com/Images/images/ali-morshedlou-WMD64tMfc4k-unsplash.webp 4000w,
-					https://projet5.sirv.com/Images/images/1200/ali-morshedlou-WMD64tMfc4k-unsplash.webp 1200w,
-					https://projet5.sirv.com/Images/images/700/ali-morshedlou-WMD64tMfc4k-unsplash.webp 700w" alt="Homme en costume" />
+				<img data-gallery-tag="Entreprises" class="gallery-item" itemprop="image" src="./assets/images/resized/max 466/ali-morshedlou-WMD64tMfc4k-unsplash.webp"
+					width="466" height="466" alt="Homme en costume" loading="lazy"/>
 
-				<img data-gallery-tag="Entreprises" class="gallery-item" itemprop="image" src="https://projet5.sirv.com/Images/images/jason-goodman-tHO1_OuKbg0-unsplash.webp"
-					srcset="https://projet5.sirv.com/Images/images/jason-goodman-tHO1_OuKbg0-unsplash.webp 4000w,
-					https://projet5.sirv.com/Images/images/1200/jason-goodman-tHO1_OuKbg0-unsplash.webp 1200w,
-					https://projet5.sirv.com/Images/images/700/jason-goodman-tHO1_OuKbg0-unsplash.webp 700" alt="Une femme qui sourit"/>
+				<img data-gallery-tag="Entreprises" class="gallery-item" itemprop="image" src="./assets/images/resized/max 466/jason-goodman-tHO1_OuKbg0-unsplash.webp"
+					width="466" height="466" alt="Une femme qui sourit" loading="lazy"/>
 
-				<img data-gallery-tag="Mariages" class="gallery-item" itemprop="image" src="https://projet5.sirv.com/Images/images/hannah-busing-RvF2R_qMpRk-unsplash.webp"
-					srcset="https://projet5.sirv.com/Images/images/hannah-busing-RvF2R_qMpRk-unsplash.webp 4000w,
-					https://projet5.sirv.com/Images/images/1200/hannah-busing-RvF2R_qMpRk-unsplash.webp 1200w,
-					https://projet5.sirv.com/Images/images/700/hannah-busing-RvF2R_qMpRk-unsplash.webp 700w" alt="Des mains qui se touchent"/>
+				<img data-gallery-tag="Mariages" class="gallery-item" itemprop="image" src="./assets/images/resized/max 466/hannah-busing-RvF2R_qMpRk-unsplash.webp"
+					width="466" height="466" alt="Des mains qui se touchent" loading="lazy"/>
 
-				<img data-gallery-tag="Portrait" class="gallery-item" itemprop="image" src="https://projet5.sirv.com/Images/images/ade-tunji-rVkhWWZFAtQ-unsplash.webp"
-					srcset="https://projet5.sirv.com/Images/images/ade-tunji-rVkhWWZFAtQ-unsplash.webp 4000w,
-					https://projet5.sirv.com/Images/images/1200/ade-tunji-rVkhWWZFAtQ-unsplash.webp 1200w,
-					https://projet5.sirv.com/Images/images/700/ade-tunji-rVkhWWZFAtQ-unsplash.webp 700w" alt="portrait d'un homme"/>
+				<img data-gallery-tag="Portrait" class="gallery-item" itemprop="image" src="./assets/images/resized/max 466/ade-tunji-rVkhWWZFAtQ-unsplash.webp"
+					width="466" height="466" alt="portrait d'un homme" loading="lazy"/>
 
-				<img data-gallery-tag="Mariages" class="gallery-item" itemprop="image" src="https://projet5.sirv.com/Images/images/jakob-owens-SiniLJkXhMc-unsplash.webp"
-					srcset="https://projet5.sirv.com/Images/images/jakob-owens-SiniLJkXhMc-unsplash.webp 4000w,
-					https://projet5.sirv.com/Images/images/1200/jakob-owens-SiniLJkXhMc-unsplash.webp 1200w,
-					https://projet5.sirv.com/Images/images/700/jakob-owens-SiniLJkXhMc-unsplash.webp 700w" alt="Deux mariés"/>
+				<img data-gallery-tag="Mariages" class="gallery-item" itemprop="image" src="./assets/images/resized/max 466/jakob-owens-SiniLJkXhMc-unsplash.webp"
+					width="466" height="466" alt="Deux mariés" loading="lazy"/>
 
-				<img data-gallery-tag="Portrait" class="gallery-item" itemprop="image" src="https://projet5.sirv.com/Images/images/nino-van-prattenburg--443cl1uR_8-unsplash.webp"
-					srcset="https://projet5.sirv.com/Images/images/nino-van-prattenburg--443cl1uR_8-unsplash.webp 4000w,
-					https://projet5.sirv.com/Images/images/1200/nino-van-prattenburg--443cl1uR_8-unsplash.webp 1200w,
-					https://projet5.sirv.com/Images/images/700/nino-van-prattenburg--443cl1uR_8-unsplash.webp 700w" alt="portrait d'une femme" />
+				<img data-gallery-tag="Portrait" class="gallery-item" itemprop="image" src="./assets/images/resized/max 466/nino-van-prattenburg--443cl1uR_8-unsplash.webp"
+					width="466" height="466" alt="portrait d'une femme" loading="lazy"/>
 
-				<img data-gallery-tag="Concert" class="gallery-item" itemprop="image" src="https://projet5.sirv.com/Images/images/austin-neill-hgO1wFPXl3I-unsplash.webp"
-					srcset="https://projet5.sirv.com/Images/images/austin-neill-hgO1wFPXl3I-unsplash.webp 4000w,
-					https://projet5.sirv.com/Images/images/1200/austin-neill-hgO1wFPXl3I-unsplash.webp 1200w,
-					https://projet5.sirv.com/Images/images/700/austin-neill-hgO1wFPXl3I-unsplash.webp 700w" alt="Un chanteur"/>
+				<img data-gallery-tag="Concert" class="gallery-item" itemprop="image" src="./assets/images/resized/max 466/austin-neill-hgO1wFPXl3I-unsplash.webp"
+					width="466" height="466" alt="Un chanteur" loading="lazy"/>
 					
-				<img data-gallery-tag="Entreprises" class="gallery-item" itemprop="image" src="https://projet5.sirv.com/Images/images/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp"
-					srcset="https://projet5.sirv.com/Images/images/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp 4000w,
-					https://projet5.sirv.com/Images/images/1200/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp 1200w,
-					https://projet5.sirv.com/Images/images/700/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp 700w" alt="Une femme en entreprise" />
+				<img data-gallery-tag="Entreprises" class="gallery-item" itemprop="image" src="./assets/images/resized/max 466/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp"
+					width="466" height="466" alt="Une femme en entreprise" loading="lazy"/>
 			</div>
 		</div>
 		<div class="quote">
@@ -244,19 +228,13 @@
 				</form>
 			</div>
 			<div class="picture right">
-				<img alt="Un appareil photo" srcset="https://projet5.sirv.com/Images/images/camera.webp 4000w,
-				https://projet5.sirv.com/Images/images/1200/camera.webp 1200w,
-				https://projet5.sirv.com/Images/images/700/camera.webp 700w">
+				<img alt="Un appareil photo" src="./assets/images/resized/max 466/camera.webp" loading="lazy">
 			</div>
 		</div>
 	</div>
-	<footer>
-		<div itemscope itemtype="https://schema.org/Photograph">
-			<h5 itemprop="name">Nina Carducci</h5>
-			<p>Téléphone: <span itemprop="telephone" content="0556677889">05 56 67 78 89</span></p>
-			<p>Horaires: <span itemprop="openingHours" content="Mo,Tu,We,Th,Fr 10:00-19:00">lundi au vendredi de 10 h à 19 h</span></p>
-		  </div>
-	</footer>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>	
+		<script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>
